@@ -80,8 +80,8 @@ const MovingImage = styled.div`
       min-width: 160px;
     }
     @media (min-width: 321px) and (max-width: 499px) {
-      height: 120px;
-      min-width: 180px;
+      height: 100px;
+      min-width: 170px;
     }
   }
 `;
@@ -117,8 +117,8 @@ const MovingImage2 = styled.div`
       min-width: 160px;
     }
     @media (min-width: 321px) and (max-width: 499px) {
-      height: 120px;
-      min-width: 180px;
+      height: 100px;
+      min-width: 170px;
     }
   }
 `;

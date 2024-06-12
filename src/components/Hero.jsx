@@ -25,13 +25,13 @@ const HeroContainer = styled.div`
     padding: 50px 20px;
   }
   @media (min-width: 321px) and (max-width: 499px) {
-    /* min-height: 220px; */
+    padding: 70px 30px 60px 30px;
   }
 `;
 
 const HeroContent = styled.div``;
 
-const HeroMiniText = styled.h1`
+const HeroMiniText = styled.span`
   background: linear-gradient(
     90deg,
     #240600 0%,
@@ -49,7 +49,7 @@ const HeroMiniText = styled.h1`
     font-size: 1rem;
   }
   @media (min-width: 321px) and (max-width: 499px) {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: bolder;
   }
 `;
@@ -62,8 +62,9 @@ const HeroText = styled.h1`
     font-size: 2rem;
   }
   @media (min-width: 321px) and (max-width: 499px) {
-    font-size: 2.3rem;
+    font-size: 2.2rem;
     padding: 0;
+    margin-bottom: 20px;
     line-height: 1.3;
   }
 `;
